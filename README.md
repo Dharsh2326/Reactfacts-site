@@ -1,12 +1,39 @@
-# React + Vite
+# ReactFacts site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small React starter / learning project built with Vite. Contains two simple app variants that demonstrate basic React concepts: components, props, state, and styling.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Component-based layout (Navbar, Main, Header/Footer variants)
+- Facts list demo with simple navigation
+- Separate Vite starter template demo (React logo + counter)
+- Minimal CSS for quick experimentation
+- Multiple self-contained examples for learning flexibility
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure (Important Files)
+- `Ap.jsx`, `ind.jsx`, `ind.css` — root demo app rendered via `index.html`
+- `component/Nav.jsx`, `component/Main.jsx` — components for the facts demo
+- `src/App.jsx`, `src/main.jsx` — Vite template demo (logo + counter)
+- `react.jsx` — alternate Page demo (Header / Main / Footer)
+- `index.html` — HTML entry point
+- `package.json`, `vite.config.js`, `eslint.config.js` — tooling & setup
 
-## Expanding the ESLint configuration
+## 🧩 Running the Project (Windows)
+1. Install dependencies:
+   ```
+   npm install
+   ```
+2. Start the development server:
+   ```
+   npm run dev
+   ```
+3. Open the URL shown by Vite (usually http://localhost:5173).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🔧 Build / Production
+```
+npm run build
+npm run preview
+```
+## 📌 Notes
+This project was created as part of my React learning journey.  
+It demonstrates fundamental concepts using a minimal and beginner-friendly setup.
